@@ -24,14 +24,6 @@ public class Solution {
         }
     }
 
-    public static void printList(ListNode list) {
-        ListNode current = list;
-        while (current != null) {
-            System.out.print(current.val + " -> ");
-            current = current.next;
-        }
-    }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
 
@@ -40,20 +32,20 @@ public class Solution {
 
         System.out.print("Result: ");
         ListNode merged1 = solution.mergeTwoLists(list1_case1, list2_case1);
-        printList(merged1);
+        System.out.println(merged1);
 
         ListNode list1_case2 = null;
         ListNode list2_case2 = null;
 
-        System.out.print("\nResult: ");
+        System.out.print("Result: ");
         ListNode merged2 = solution.mergeTwoLists(list1_case2, list2_case2);
-        printList(merged2);
+        System.out.println(merged2);
 
         ListNode list1_case3 = null;
         ListNode list2_case3 = new ListNode(0);
 
-        System.out.print("\nResult: ");
+        System.out.print("Result: ");
         ListNode merged3 = solution.mergeTwoLists(list1_case3, list2_case3);
-        printList(merged3);
+        System.out.println(merged3);
     }
 }

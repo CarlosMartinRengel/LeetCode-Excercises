@@ -37,7 +37,7 @@ public class Solution {
     }
 
 
-    static void main() {
+    public static void main(String[] args) {
         int x = 5;      // 00000101
         int y = x << 1; // 00001010 = 10
         int z = x << 2; // 00010100 = 20

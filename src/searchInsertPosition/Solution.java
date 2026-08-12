@@ -23,7 +23,7 @@ public class Solution {
         return left;
     }
 
-    public static void main() {
+    public static void main(String[] args) {
         Solution solution = new Solution();
 
         int[] nums1 = {1,3,5,6};
